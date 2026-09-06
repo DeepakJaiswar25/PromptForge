@@ -39,7 +39,7 @@ PromptForge is an AI-powered application builder that turns natural-language pro
                   │                 │                 │
           ┌───────▼───────┐ ┌──────▼──────┐ ┌────────▼────────┐
           │ PostgreSQL    │ │ MinIO       │ │ Kafka / Redis   │
-          │ + pgvector    │ │ File Store  │ │ Events/Routing  │
+          │               │ │ File Store  │ │ Events/Routing  │
           └───────────────┘ └─────────────┘ └─────────────────┘
                                     │
                          ┌──────────▼───────────┐
