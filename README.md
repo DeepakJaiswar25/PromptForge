@@ -30,26 +30,26 @@ PromptForge is an AI-powered application builder that turns natural-language pro
                                     │
              ┌──────────────────────┼──────────────────────┐
              │                      │                      │
-   ┌─────────▼─────────┐  ┌────────▼─────────┐  ┌────────▼──────────┐
+   ┌─────────▼─────────┐  ┌─────────▼────────┐  ┌──────────▼────────┐
    │ Account Service   │  │ Workspace Service│  │ Intelligence      │
    │ Auth and Accounts │  │ Projects/Previews│  │ Service           │
    └───────────────────┘  └────────┬─────────┘  └───────────────────┘
                                     │
                   ┌─────────────────┼─────────────────┐
                   │                 │                 │
-          ┌───────▼───────┐ ┌──────▼──────┐ ┌────────▼────────┐
+          ┌───────▼───────┐ ┌───────▼─────┐ ┌─────────▼───────┐
           │ PostgreSQL    │ │ MinIO       │ │ Kafka / Redis   │
           │               │ │ File Store  │ │ Events/Routing  │
           └───────────────┘ └─────────────┘ └─────────────────┘
                                     │
                          ┌──────────▼───────────┐
-                         │ Kubernetes Preview  │
+                         │ Kubernetes Preview   │
                          │ Runner Pool          │
                          └──────────┬───────────┘
                                     │
                          ┌──────────▼───────────┐
-                         │ Wildcard Proxy      │
-                         │ *.previews.domain   │
+                         │ Wildcard Proxy       │
+                         │ *.previews.domain    │
                          └──────────────────────┘
 ```
 
