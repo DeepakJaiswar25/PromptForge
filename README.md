@@ -221,16 +221,6 @@ For production environments, configure Google Cloud budget alerts and regularly 
 
 PromptForge is under active development. APIs, deployment manifests, and preview behavior may change as the platform evolves.
 
-## Roadmap
-
-- Faster dependency installation and shared package caching
-- Inactivity-based preview expiration
-- Preview usage dashboards
-- Project publishing workflows
-- Improved generation history and rollback
-- Team collaboration
-- Additional AI model integrations
-- Automated integration and end-to-end tests
 
 ## Contributing
 
